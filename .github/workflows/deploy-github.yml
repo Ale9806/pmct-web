@@ -23,7 +23,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: sudo npm install
 
       - name: Check for linting errors
         run: npm test
